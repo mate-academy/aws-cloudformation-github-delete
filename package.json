@@ -1,5 +1,5 @@
 {
-  "name": "aws-actions-aws-cloudformation-github-deploy",
+  "name": "mate-github-actions-delete-aws-cloudformation-stack",
   "version": "1.0.3",
   "description": "Deploys a AWS CloudFormation stack",
   "main": "lib/main.js",
@@ -8,7 +8,7 @@
     "pack": "ncc build",
     "precommit": "lint-staged",
     "test": "DEBUG=jest eslint **/*.ts && jest --coverage --verbose",
-    "all": "npm run build && npm run precommit && npm run pack && npm test"
+    "all": "npm run build && npm run pack"
   },
   "repository": {
     "type": "git",
@@ -28,8 +28,7 @@
   "homepage": "https://github.com/aws-actions/aws-cloudformation-github-deploy#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "npm run precommit",
-      "pre-push": "npm run test"
+      "pre-commit": "npm run precommit"
     }
   },
   "dependencies": {

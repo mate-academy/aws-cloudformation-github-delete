@@ -4,7 +4,7 @@ import { deleteStack, DeleteStackInput } from './delete'
 
 // The custom client configuration for the CloudFormation clients.
 const clientConfiguration = {
-  customUserAgent: 'aws-cloudformation-github-deploy-for-github-actions'
+  customUserAgent: 'aws-cloudformation-github-delete-for-github-actions'
 }
 
 export async function run(): Promise<void> {

@@ -1,5 +1,5 @@
 name: 'Delete CloudFormation Stack Action'
-description: "Deploys a AWS CloudFormation stack"
+description: "Delete a AWS CloudFormation stack"
 branding:
   icon: "cloud-off"
   color: "red"

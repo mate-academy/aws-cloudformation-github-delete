@@ -1,4 +1,4 @@
-import { run, Inputs } from '../src/main'
+import { run } from '../src/main'
 import * as path from 'path'
 import * as core from '@actions/core'
 import * as fs from 'fs'
